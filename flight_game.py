@@ -7,15 +7,17 @@ print("hello ", name)
 run = True
 position = "LONDON"
 locations = ["NYC", "TRONDHEIM", "OSLO", "LONDON"] 
-def shuffran():
-    random.
+#def shuffran():
+   # random.
 
 while run:
     print(f"You are now at {position}")
+    print(("also you have 3 airplanes"))
     print("Write commands below (Write as they are wroten below): ")
     print("                                                       Fly")
     print("                                                       About (It will say about the game) ")
     print("                                                       write Money to(see your flight money)")
+    print("                                                       write Market to buy something")
     commands = input(" ")
     if "Fly" in commands:
         print("Choose a flight: ")
@@ -31,6 +33,7 @@ while run:
                 time.sleep(25)
                 position = "OSLO"
                 print(f"Welcome to {position}")
+                print("you got 50 flight coins ")
         if "Nor" in flight:
             print("                write Start to start fly")
             commandnor = input(" ")
@@ -47,7 +50,18 @@ while run:
                 print("welcome to New york")
 
     elif "Money" in commands:
-        print("you have now 0 flight coins") 
+        print("you have now 0 flight coins")
+
+    if "Market" in commands:
+        print("welcome to Market! here you can buy  new airport places and airplanes for flight coins")
+        print("                  write Airplane to buy Airplanes")
+        print("                  write Airport to buy Airport landing place")
+        commandmark = input(" ")
+
+        if "Airplane" in commandmark:
+            print("what Airplane do you want to buy wait a minute i thing i can chose for you")
+            time.sleep(3)
+            print("aha what about emirates 3sec faster then Sas")
 
 
 
