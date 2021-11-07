@@ -1,1 +1,3 @@
-print("Flight Game v.0.0.1a")
+print("hello welcome to flight   (version 0.0.2a)")
+name = input("what your name?\n")
+print("hello", name)
