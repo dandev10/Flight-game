@@ -8,8 +8,15 @@ run = True
 position = "LONDON"
 locations = ["NYC", "TRONDHEIM", "OSLO", "LONDON"] 
 def shuffran():
-    if (random.choice(locations) == position):
-        return shuffran
+    if random.choice(locations) == position:
+        if position == "TRONDHEIM":
+            return "OSLO"
+        if position == "NYC":
+            return "LONDON"
+        if position == "LONDON":
+            return "TRONDHEIM"
+        if position == "OSLO":
+            return "LONDON"
     else:
         return random.choice(locations)
 
