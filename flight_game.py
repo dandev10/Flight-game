@@ -7,6 +7,7 @@ print("hello ", name)
 run = True
 position = "LONDON"
 locations = ["NYC", "TRONDHEIM", "OSLO", "LONDON"] 
+airplanes = ["emirates", "klm", "qatar", "LOT"]
 def shuffran():
     if (random.choice(locations) == position):
         return shuffran
