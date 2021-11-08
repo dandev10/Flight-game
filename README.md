@@ -1,4 +1,4 @@
-# Flight-game
+# Flight game 0.0.1
 
 //
 
@@ -9,7 +9,7 @@
 **
 //
 
-Fly inside python console!
+Fly inside python !
 This game is so cool!
 
 
@@ -17,4 +17,4 @@ This game is so cool!
 
 ## Install instructions:
 
-Download code from GitHub(basically here) or use Git: `git clone https://github.com/THEspager/Flight-game.git`, then just start and have fun!, Happy flight!
+Download code from GitHub(basically here) or use Git: `git clone https://github.com/THEspager/Flight-game.git`, then just start and have fun!, Happy flying!
