@@ -67,13 +67,13 @@ while running:
     if move_down:
         planeY += 0.3
 
-    #if planeY >= 190:
-        #running = False
+    if planeY >= 190:
+        running = False
 
     if planeX >= 700:
         planeX = -100
 
-    #planeX += 0.1
+    planeX += 0.1
 
     screen.fill(backgroundcolor)
 
